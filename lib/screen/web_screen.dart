@@ -14,23 +14,23 @@ class WebScreen extends StatelessWidget {
             padding: const EdgeInsets.only(top: 100),
             child: Column(
               children: [
-                CircleAvatar(
+                const CircleAvatar(
                   backgroundImage: AssetImage("image/profile.jpeg"),
                   radius: 150,
                 ),
-                Text(
+                const Text(
                   "ROBIN SINGH",
                   style: TextStyle(
                       fontFamily: "Lobster", fontSize: 50, color: Colors.white),
                 ),
-                Text(
+                const Text(
                   "FLutter Developer",
                   style: TextStyle(fontSize: 30, color: Colors.white),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
-                Divider(
+                const Divider(
                   thickness: 4,
                   color: Colors.white,
                   indent: 250,
@@ -39,7 +39,7 @@ class WebScreen extends StatelessWidget {
                 SizedBox(
                   height: MediaQuery.of(context).size.height * 0.12,
                   width: MediaQuery.of(context).size.width * 0.32,
-                  child: Card(
+                  child: const Card(
                     margin: EdgeInsets.symmetric(
                       vertical: 20,
                     ),
@@ -49,13 +49,11 @@ class WebScreen extends StatelessWidget {
                         color: Colors.teal,
                         size: 50,
                       ),
-                      title: Expanded(
-                        child: Text(
-                          "robinsinghkaithal@gmail.com",
-                          style: TextStyle(color: Colors.teal, fontSize: 35),
-                          textAlign: TextAlign.center,
-                          overflow: TextOverflow.ellipsis,
-                        ),
+                      title: Text(
+                        "robinsinghkaithal@gmail.com",
+                        style: TextStyle(color: Colors.teal, fontSize: 35),
+                        textAlign: TextAlign.center,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
                   ),

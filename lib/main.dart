@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ResponsiveScreen(
+    return const ResponsiveScreen(
       mobileScreen: MobileScreen(),
       webScreen: WebScreen(),
     );

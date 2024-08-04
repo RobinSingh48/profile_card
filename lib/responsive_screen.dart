@@ -12,9 +12,9 @@ class ResponsiveScreen extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth > 900) {
-          return WebScreen();
+          return const WebScreen();
         }
-        return MobileScreen();
+        return const MobileScreen();
       },
     );
   }
