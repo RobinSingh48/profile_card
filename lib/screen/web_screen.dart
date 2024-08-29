@@ -24,7 +24,7 @@ class WebScreen extends StatelessWidget {
                       fontFamily: "Lobster", fontSize: 50, color: Colors.white),
                 ),
                 const Text(
-                  "FLutter Developer",
+                  "Flutter Developer",
                   style: TextStyle(fontSize: 30, color: Colors.white),
                 ),
                 const SizedBox(

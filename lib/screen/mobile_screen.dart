@@ -13,7 +13,7 @@ class MobileScreen extends StatelessWidget {
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 CircleAvatar(
                   backgroundImage: AssetImage("image/profile.jpeg"),
                   radius: 80,
@@ -24,7 +24,7 @@ class MobileScreen extends StatelessWidget {
                       fontFamily: "Lobster", fontSize: 30, color: Colors.white),
                 ),
                 Text(
-                  "FLutter Developer",
+                  "Flutter Developer",
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
                 SizedBox(
